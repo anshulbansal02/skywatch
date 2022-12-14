@@ -1,0 +1,13 @@
+services:
+   redis: 
+     image: redislabs/redis
+     ports:
+       - '6379:6379' 
+   web:
+        build: .
+        ports:
+            - "8000:8000"
+        volumes:
+            - .:/code
+        depends_on:
+            - redis

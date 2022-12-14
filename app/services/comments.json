@@ -1,0 +1,86 @@
+{
+    "sun": [
+        "The sun is shining brightly!",
+        "It's a beautiful day outside.",
+        "The sky is clear and blue.",
+        "It's the perfect weather for outdoor activities.",
+        "The temperature is just right.",
+        "Grab a friend and go enjoy the sunshine!",
+        "It's a great day for a picnic or walk.",
+        "Don't let the sunshine go to waste.",
+        "Enjoy the beautiful weather while it lasts.",
+        "The sun is out and it's time to have some fun!"
+    ],
+    "rain": [
+        "The rain is falling gently.",
+        "It's a cozy day to stay inside.",
+        "The sound of rain is soothing.",
+        "Don't forget your umbrella if you go outside.",
+        "The fresh smell of rain is invigorating.",
+        "It's a great day for a cup of hot tea.",
+        "Rain makes the world look clean and new.",
+        "Put on a raincoat and go jump in puddles.",
+        "Dancing in the rain is a fun way to get wet.",
+        "Embrace the rain and enjoy the moment."
+    ],
+    "drizzle": [
+        "The drizzle is a gentle reminder to slow down.",
+        "It's a perfect day for a walk in the park.",
+        "The sound of raindrops on leaves is peaceful.",
+        "Don't forget your umbrella, but enjoy the mist.",
+        "The smell of rain is fresh and clean.",
+        "It's a great day for a hot bowl of soup.",
+        "Drizzle makes everything look shiny and new.",
+        "Put on a cozy sweater and go for a stroll.",
+        "The gentle pitter-patter of rain is calming.",
+        "Embrace the drizzle and find beauty in the moment."
+    ],
+    "thunder": [
+        "The thunder is rumbling in the distance.",
+        "The sky is dark and stormy.",
+        "The flash of lightning is thrilling.",
+        "It's a great night to cuddle up and watch a movie.",
+        "Don't forget to unplug your electronics during a storm.",
+        "The sound of rain mixed with thunder is unique.",
+        "It's a perfect night for a warm bath and a good book.",
+        "The power of a thunderstorm is awe-inspiring.",
+        "Be safe during a thunderstorm and avoid tall objects.",
+        "Listen to the symphony of thunder and rain."
+    ],
+    "haze": [
+        "The haze is a thin veil over the world.",
+        "It's a mysterious day, with a sense of wonder.",
+        "The mist is a gentle reminder to slow down.",
+        "Don't forget to wrap up warm on a misty day.",
+        "The air is cool and damp, with a fresh scent.",
+        "It's a great day for a hot cup of coffee or tea.",
+        "The world looks soft and dreamlike in the mist.",
+        "Put on a hat and go for a peaceful walk.",
+        "The quietness of a misty day is calming.",
+        "Embrace the haze and find beauty in the moment."
+    ],
+    "clouds": [
+        "The clouds are drifting slowly across the sky.",
+        "It's a moody day, with a sense of calm.",
+        "The sound of rain tapping on the windows is soothing.",
+        "Don't forget to take an umbrella in case it rains.",
+        "The air is cool and damp, with a fresh scent.",
+        "It's a great day for a warm blanket and a good book.",
+        "The world looks softer and gentler in the clouds.",
+        "Put on a sweater and go for a peaceful walk.",
+        "The quietness of a cloudy day is relaxing.",
+        "Embrace the clouds and find beauty in the moment."
+    ],
+    "snow": [
+        "The snow is falling softly from the sky.",
+        "It's a magical day, with a winter wonderland feel.",
+        "The sound of snow crunching under your feet is delightful.",
+        "Don't forget to bundle up on a snowy day.",
+        "The air is crisp and cold, with a fresh scent.",
+        "It's a great day for a mug of hot cocoa or apple cider.",
+        "The world looks clean and sparkling in the snow.",
+        "Put on a scarf and go for a wintry walk.",
+        "The quietness of a snowy day is peaceful.",
+        "Embrace the snow and find beauty in the moment."
+    ]
+}

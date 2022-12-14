@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="/static/styles/styles.css" />
+
+        <title>Skywatch ⚠️</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo">Skywatch</div>
+                <div class="ip-info">Unable to detect IP</div>
+            </div>
+
+            <div class="main">
+                <div class="card error">
+                    <img class="error-icon" src="/static/icons/down.svg" />
+                    <h3 class="error-title">Uh oh! Malfunction</h3>
+                    <p class="error-line">
+                        We were unable to detect your location. You might be
+                        behind a proxy or a VPN that is hiding your IP.
+                    </p>
+                    <button class="btn" onClick="window.location.reload();">
+                        Reload Page
+                    </button>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p class="footer-line">
+                    Weather app that automatically detects your location based
+                    on your IP address and shows you the current sky conditions.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

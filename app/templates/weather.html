@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='styles/app.css') }}"
+        />
+
+        <title>
+            Skywatch | {{location.city}} {{weather.temperature | to_c}}°C
+        </title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo">Skywatch</div>
+                <div class="ip-info">{{location.ip}}</div>
+            </div>
+
+            <div class="main">
+                <div class="card main-info">
+                    <div class="location">
+                        <img class="pin-icon" src="/static/icons/pin.svg" />
+                        <span
+                            >{{location.city | trunc_fit(24)}}, {{location.state
+                            | trunc_fit(24)}}</span
+                        >
+                    </div>
+                    <div class="weather-info">
+                        <div class="data">
+                            <h2 class="temp">
+                                {{weather.temperature | to_c}}&deg;C
+                            </h2>
+                            <p class="feels-like">
+                                Feels like {{weather.feels_like | to_c}}&deg;C
+                            </p>
+                            <h4 class="condition">{{weather.condition}}</h4>
+                        </div>
+                        <div class="condition-icon">
+                            <img
+                                src="/static/icons/v2/{{weather.condition_id | weather_condition}}.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <marquee class="comment">
+                        <p>{{weather.condition_id | weather_comment}}</p>
+                    </marquee>
+                </div>
+                <div class="card meta-info">
+                    <div class="meta">
+                        <img class="meta-icon" src="/static/icons/wind.svg" />
+                        <p class="meta-value">{{weather.wind.speed}} m/s</p>
+                    </div>
+                    <div class="meta">
+                        <img
+                            class="meta-icon"
+                            src="/static/icons/humidity.svg"
+                        />
+                        <p class="meta-value">{{weather.humidity}}%</p>
+                    </div>
+                    <div class="meta">
+                        <img
+                            class="meta-icon"
+                            src="/static/icons/pressure.svg"
+                        />
+                        <p class="meta-value">{{weather.pressure}} hPa</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p class="footer-line">
+                    Weather app that automatically detects your location based
+                    on your IP address and shows you the current sky conditions.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
